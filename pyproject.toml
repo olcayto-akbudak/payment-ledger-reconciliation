@@ -1,0 +1,7 @@
+[project]
+name = "payment-ledger-reconciliation"
+version = "0.1.0"
+description = "Ödeme ve Fatura Mutabakatı"
+requires-python = ">=3.12"
+[tool.ruff]
+line-length = 120

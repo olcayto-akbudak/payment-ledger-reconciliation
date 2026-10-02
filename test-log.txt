@@ -1,0 +1,13 @@
+test_ambiguity (test_core.CoreTests.test_ambiguity) ... ok
+test_cash_conservation (test_core.CoreTests.test_cash_conservation) ... ok
+test_cross_currency (test_core.CoreTests.test_cross_currency) ... ok
+test_duplicate (test_core.CoreTests.test_duplicate) ... ok
+test_explicit_multi (test_core.CoreTests.test_explicit_multi) ... ok
+test_invalid_reference (test_core.CoreTests.test_invalid_reference) ... ok
+test_negative_fee (test_core.CoreTests.test_negative_fee) ... ok
+test_partial (test_core.CoreTests.test_partial) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

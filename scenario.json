@@ -1,0 +1,40 @@
+{
+  "invoices": [
+    {
+      "id": "I1",
+      "customer": "C1",
+      "currency": "TRY",
+      "day": 1,
+      "amount_minor": 10000
+    },
+    {
+      "id": "I2",
+      "customer": "C1",
+      "currency": "TRY",
+      "day": 2,
+      "amount_minor": 8000
+    }
+  ],
+  "payments": [
+    {
+      "id": "P1",
+      "customer": "C1",
+      "currency": "TRY",
+      "day": 3,
+      "amount_minor": 5000,
+      "invoice_refs": []
+    },
+    {
+      "id": "P2",
+      "customer": "C1",
+      "currency": "TRY",
+      "day": 4,
+      "amount_minor": 18500,
+      "fee_minor": 500,
+      "invoice_refs": [
+        "I1",
+        "I2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "allocations": [
+    {
+      "payment": "P2",
+      "invoice": "I1",
+      "currency": "TRY",
+      "amount_minor": 10000
+    },
+    {
+      "payment": "P2",
+      "invoice": "I2",
+      "currency": "TRY",
+      "amount_minor": 8000
+    }
+  ],
+  "balances": [
+    {
+      "invoice": "I1",
+      "currency": "TRY",
+      "open_minor": 0,
+      "status": "CLOSED"
+    },
+    {
+      "invoice": "I2",
+      "currency": "TRY",
+      "open_minor": 0,
+      "status": "CLOSED"
+    }
+  ],
+  "review": [
+    {
+      "payment": "P1",
+      "reason": "ambiguous",
+      "candidates": [
+        "I1",
+        "I2"
+      ],
+      "unallocated_minor": 5000
+    }
+  ],
+  "cash_controls": [
+    {
+      "currency": "TRY",
+      "net_minor": 23000,
+      "allocated_minor": 18000,
+      "unallocated_minor": 5000
+    }
+  ]
+}
